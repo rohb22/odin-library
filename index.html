@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>Odin Library</title>
 </head>
 <body>
-    
+    <div class="modalcontainer">
+        <div class="modal">
+            <div class="modalform">
+                <h4>
+                    Add Entry
+                </h4>
+                <div>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" required>
+                </div>
+                <div>
+                    <label for="author">Author:</label>
+                    <input type="text" id="author">
+                </div>
+                <div>
+                    <label for="pages">Pages:</label>
+                    <input type="number" id="pages">
+                </div>
+                <div>
+                    <input type="checkbox" id="read">
+                    <label for="read">Read</label>
+                </div>
+                <div>
+                    <button class="newbook">ADD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="logo">Odin Library</div>
+        <div class="showmodal">+</div>
+    </header>
+    <main>
+    </main>
+    <footer>Made by <a href="https://github.com/rohb22">@rohb22</a></footer>
 </body>
 </html>
