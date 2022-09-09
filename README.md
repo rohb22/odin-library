@@ -11,7 +11,7 @@ Features:
 -   Allow entry of title, author, pages and a checkbox for read state
 -   Allow to remove an entry
 -   Allow to add new entry
--   Allow to toggle read state\
+-   Allow to toggle read state
 
 # Conclusion
 Stuff that i learned/ implement:
