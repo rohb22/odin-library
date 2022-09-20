@@ -20,4 +20,7 @@ Stuff that i learned/ implement:
 -   Bunch of css fixes
 -   JS arrays
 
+# Update
+-   Changed to classes
+
 
