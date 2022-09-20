@@ -10,18 +10,23 @@ modal.addEventListener('click', function(e) {
 
 
 
-function Book(title, author, pages, read) {
-    this.title = title
-    this.author = author
-    if (pages == '') {
-        this.pages = 'N/A'
-    }
-    else {
-        this.pages = pages;
-    }
-    this.read = read
+class Book {
 
-    this.isRead = function () {
+    constructor(title, author,pages, read) {
+        this.title = title;
+        this.author = author;
+        
+        if (pages == '') {
+            this.pages = 'N/A'
+        }
+        else {
+            this.pages = pages;
+        }
+
+        this.read = read;
+    }
+
+    isRead() {
         if (this.read) {
             return 'Read'
         }
@@ -30,7 +35,7 @@ function Book(title, author, pages, read) {
         }
     }
 
-    this.info = function () {
+    info(){
         return `${this.title} by ${this.author}, ${this.pages} pages, ${this.isRead()}`
     }
 
